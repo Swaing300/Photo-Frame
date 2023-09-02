@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    border: 1px solid black;
+    width: 50vh;
+    color: aliceblue;
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    padding: 3vh;
+    position: relative;
+    top: 10vh;
+    left: 10vh;
+}
+#main{
+    background-color: rgb(111, 151, 186);
+    height: 95vh;
+}
+.main1{
+    height: 85vh;
+    width: 100%;
+    background: beige;
+    background: url("./1st.jpg") ;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.main2{
+    height: 85vh;
+    width: 100%;
+    background: beige;
+    background: url("./Windows\ 10\ 4K\ Wallpapers\ 1.jpg") ;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.main3{
+    height: 85vh;
+    width: 100%;
+    background: beige;
+    background: url("./Windows\ 10\ 4K\ Wallpapers\ 10.jpg") ;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.main4{
+    height: 85vh;
+    width: 100%;
+    background: beige;
+    background: url("./Windows\ 10\ 4K\ Wallpapers\ 11.jpg") ;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.main5{
+    height: 85vh;
+    width: 100%;
+    background: beige;
+    background: url("./Windows\ 10\ 4K\ Wallpapers\ 12.jpg") ;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.main6{
+    height: 85vh;
+    width: 100%;
+    background: beige;
+    background: url("./Windows\ 10\ 4K\ Wallpapers\ 3.jpeg") ;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.main7{
+    height: 85vh;
+    width: 100%;
+    background: beige;
+    background: url("./Windows\ 10\ 4K\ Wallpapers\ 14.jpg") ;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.main8{
+    height: 85vh;
+    width: 100%;
+    background: beige;
+    background: url("./Windows\ 10\ 4K\ Wallpapers\ 15.jpg") ;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.main9{
+    height: 85vh;
+    width: 100%;
+    background: beige;
+    background: url("./Windows\ 10\ 4K\ Wallpapers\ 17.jpg") ;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.down{
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.down:hover{
+    animation-name: an;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes an{
+    0%{
+        margin-top: 0vh;
+    }
+    100%{
+        margin-top: -10vh;
+    }
+}
+.down:hover{
+    margin-top: -10vh;
+}
+.down img{
+    height: 90px;
+    margin-top: 10px;
+}
+.down img:hover{
+    border: 2px solid beige;
+    cursor: pointer;
+}
